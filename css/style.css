@@ -46,6 +46,5 @@ ul li.active a{
     transform: translate(-50%,-50%);
 }
 .title:hover{
-    background-color: lightblue;
-    color: black;
+    color:red;
 }

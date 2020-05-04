@@ -10,10 +10,14 @@ header{
     background-position: center;
 }
 ul{
-    float: left;
-    list-style-type:none;
+    float: right;
+    list-style-type: none;
     margin-top:15px;
 }
+ul li{
+    display: inline-block;
+}
+
 ul li a{
     text-decoration:none;
     color: white;
@@ -24,4 +28,20 @@ ul li a{
 ul li a:hover{
     background-color: white;
     color: blue;
+}
+ul li.active a{
+    background-color: white;
+    color: blue;
+}
+.title{
+    font-size:25px;
+    color: white;
+    border: 2px solid transparent;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-70%,-50%);
+}
+.title:hover{
+    color: black;
 }
