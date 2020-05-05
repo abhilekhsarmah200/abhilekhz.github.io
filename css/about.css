@@ -9,6 +9,14 @@ body{
     background-size: 100% 100%;
     background-position: center;
 }
+@-o-viewport{
+        zoom: 1.0;
+        width: extend-to-zoom;
+    }
+    @-ms-viewport{
+        width: extend-to-zoom;
+        zoom: 1;
+    }
 ul{
     float: right;
     list-style-type: none;
@@ -31,6 +39,10 @@ ul{
     ul li.active a{
     background-color: white;
     color: blue;
+    }
+    .main{
+        max-width: 1200px;
+        margin: auto;
     }
     .title{
         size: 100% 100%;
