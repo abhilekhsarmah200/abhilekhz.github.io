@@ -4,18 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Images</title>
+    <link rel="stylesheet"type="text/css"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        body{
-               background-color: grey;
-        }
-        h1{
-            text-align: center;
-            transition: 0.8s ease;
-            color:white;
-        }
-        h1:hover{
-            color: blue;
-        }
+    body{
+        background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(living.jpg) no-repeat;
+        height: 100vh;
+        background-size: 100% 100%;
+        background-position: center;
+    }
+    ul{
+    float: right;
+    list-style-type: none;
+    margin-top:15px;
+    }
+    ul li{
+    display: inline-block;
+    }
+    ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.8s ease;
+    }
+    ul li a:hover{
+    background-color: white;
+    color:black;
+    }
+    ul li.active a{
+    background-color: white;
+    color: black;
+    }
+    .main{
+        max-width: 1200px;
+        margin: auto;
+    }
         .maindiv{
             width: 70%;
             height: 400px;
@@ -51,7 +74,23 @@
     </style>
 </head>
 <body>
-    <h1>IMAGES</h1>
+    <div class="main">
+        <ul>
+            <li>
+                <a href="homes.html"><i class="fa fa-home"></i></a>
+            </li>
+            <li>
+                <a href="aboutus.html"><i class="fa fa-users"></i></a>
+            </li>
+
+            <li class="active">
+                <a href="images.html"><i class="fa fa-camera"></i></a>
+            </li>
+            <li>
+                <a href="videos.html"><i class="fa fa-video-camera"></i></a>
+            </li>
+        </ul>
+    </div>
         <div class="maindiv">
             
         </div>
