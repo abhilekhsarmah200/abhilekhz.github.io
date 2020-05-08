@@ -65,3 +65,9 @@ ul{
         }
 
 }
+@media only screen and (width: 414px){
+    ul li{
+        font-size: 9px;
+        }
+
+}
